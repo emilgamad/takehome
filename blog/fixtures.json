@@ -1,0 +1,120 @@
+[
+  {
+    "model": "blog.author",
+    "pk": 1,
+    "fields": {"name": "Alice Smith", "age": 34}
+  },
+  {
+    "model": "blog.author",
+    "pk": 2,
+    "fields": {"name": "Bob Johnson", "age": 45}
+  },
+  {
+    "model": "blog.author",
+    "pk": 3,
+    "fields": {"name": "Carol Lee", "age": 29}
+  },
+  {
+    "model": "blog.topic",
+    "pk": 1,
+    "fields": {"title": "Django Optimization"}
+  },
+  {
+    "model": "blog.topic",
+    "pk": 2,
+    "fields": {"title": "Python Tips"}
+  },
+  {
+    "model": "blog.topic",
+    "pk": 3,
+    "fields": {"title": "Web Development"}
+  },
+  {
+    "model": "blog.blogpost",
+    "pk": 1,
+    "fields": {
+      "title": "Optimizing Django ORM",
+      "content": "Tips and tricks for optimizing Django ORM queries.",
+      "publication_date": "2023-01-10T10:00:00Z",
+      "author": 1,
+      "topic": 1
+    }
+  },
+  {
+    "model": "blog.blogpost",
+    "pk": 2,
+    "fields": {
+      "title": "Advanced QuerySets",
+      "content": "Deep dive into Django QuerySets.",
+      "publication_date": "2023-02-15T12:00:00Z",
+      "author": 1,
+      "topic": 1
+    }
+  },
+  {
+    "model": "blog.blogpost",
+    "pk": 3,
+    "fields": {
+      "title": "Python List Comprehensions",
+      "content": "How to use list comprehensions effectively.",
+      "publication_date": "2023-03-20T09:30:00Z",
+      "author": 2,
+      "topic": 2
+    }
+  },
+  {
+    "model": "blog.blogpost",
+    "pk": 4,
+    "fields": {
+      "title": "Web Security Basics",
+      "content": "Essential web security practices.",
+      "publication_date": "2023-04-05T14:00:00Z",
+      "author": 3,
+      "topic": 3
+    }
+  },
+  {
+    "model": "blog.blogpost",
+    "pk": 5,
+    "fields": {
+      "title": "Django Middleware",
+      "content": "Understanding Django middleware.",
+      "publication_date": "2023-05-01T11:00:00Z",
+      "author": 2,
+      "topic": 1
+    }
+  },
+  {
+    "model": "blog.blogpost",
+    "pk": 6,
+    "fields": {
+      "title": "Async Views in Django",
+      "content": "How to use async views for better performance.",
+      "publication_date": "2023-06-10T16:00:00Z",
+      "author": 3,
+      "topic": 1
+    }
+  },
+  {
+    "model": "blog.blogpost",
+    "pk": 7,
+    "fields": {
+      "title": "Decorators in Python",
+      "content": "A guide to Python decorators.",
+      "publication_date": "2023-07-12T13:00:00Z",
+      "author": 1,
+      "topic": 2
+    }
+  },
+  {
+    "model": "blog.blogpost",
+    "pk": 8,
+    "fields": {
+      "title": "Frontend vs Backend",
+      "content": "Understanding the difference between frontend and backend.",
+      "publication_date": "2023-08-20T15:00:00Z",
+      "author": 2,
+      "topic": 3
+    }
+  }
+] 
