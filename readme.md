@@ -40,3 +40,59 @@ GET /topics/?title=django
 - List all blog posts with "web" in the title, by author "alice", and related to the "django" topic:
 
 GET /blogposts/?title=web&author=alice&topic=django
+
+## Installation & Running the Server
+
+### 1. Clone the repository
+
+```sh
+git clone <your-repo-url>
+cd segstream_project
+```
+
+### 2. Create and activate a virtual environment (recommended)
+```sh
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+```
+
+### 3. Install the requirements
+```sh
+pip install -r requirements.txt
+```
+
+### 4. Apply migrations
+```sh
+python manage.py migrate
+```
+
+### 5. Run the development server
+```sh
+python manage.pyrunserver
+```
+
+### 6. Access the API
+
+Open your browser and go to:
+http://127.0.0.1:8000/api/
+
+Note:
+Note:
+
+Make sure you have Python 3.8+ installed.
+You may need to create a superuser for admin access:
+```sh
+python manage.py createsuperuser
+```
+
+### 7. Load sample data fixtures
+
+To load the provided sample data into your database, run:
+
+```sh
+python manage.py loaddata fixtures.json
+```
+This will populate your database with example authors, topics, and blog posts for testing and development.
