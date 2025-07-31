@@ -1,9 +1,9 @@
+
 """
 ASGI config for segstream_project project.
 
-It exposes the ASGI callable as a module-level variable named ``application``.
-
-For more information on this file, see
+Exposes the ASGI callable as a module-level variable named ``application``.
+For more information, see:
 https://docs.djangoproject.com/en/5.2/howto/deployment/asgi/
 """
 
