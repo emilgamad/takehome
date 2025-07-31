@@ -1,4 +1,4 @@
-# Segstream Blog API
+# Sample Blog API
 
 This Django REST API provides endpoints to manage and query blog topics, blog posts, and authors. It supports advanced filtering and aggregation features, such as searching topics by title, filtering blog posts by author or topic, and retrieving the top authors for each topic.
 
